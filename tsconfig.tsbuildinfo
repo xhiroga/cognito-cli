@@ -1,0 +1,2092 @@
+{
+  "program": {
+    "fileInfos": {
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "c8665e66018917580e71792b91022bcaf53fb946fab4aaf8dfb0738ed564db88",
+        "signature": "c8665e66018917580e71792b91022bcaf53fb946fab4aaf8dfb0738ed564db88"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843",
+        "signature": "2edd3ddf436ef8e12df876dcae4ecd6a8748577944c477bf4b20d5596e0c9843"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "6994c583b66862deca24d7bbf77297d95b9d3da8160dbd9beef6b847cf7c1376",
+        "signature": "6994c583b66862deca24d7bbf77297d95b9d3da8160dbd9beef6b847cf7c1376"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "4c892766803cef795d73d69aee436dc7a80157163e0cf35e6d0e86917cbd42f3",
+        "signature": "4c892766803cef795d73d69aee436dc7a80157163e0cf35e6d0e86917cbd42f3"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "384f66a3422d80014c51de2682159bb26f1e35854029880ccd5f6d1f00e6a36d",
+        "signature": "384f66a3422d80014c51de2682159bb26f1e35854029880ccd5f6d1f00e6a36d"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0",
+        "signature": "dd94d8ef48c562389eb58af8df3a3a34d11367f7c818192aa5f16470d469e3f0"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3",
+        "signature": "828413486bdcaa342558e8e4570b1b287b776cb61b4b70b0214bd10c5d9a94c3"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "4d1f39313a169b8599b8817688f504b56ba8204c2ebafd03f66ff77ddb1899a4",
+        "signature": "4d1f39313a169b8599b8817688f504b56ba8204c2ebafd03f66ff77ddb1899a4"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "7c07d934680d0e33275a44d22fb11a4ff31d46c8c26a8d056828a478753f1efe",
+        "signature": "7c07d934680d0e33275a44d22fb11a4ff31d46c8c26a8d056828a478753f1efe"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4",
+        "signature": "ff8ad203e83338289b0f5defc1a5b5c253fb7d251b464db497383f915a0df3f4"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4",
+        "signature": "42102aaeb1bfec213be1e9777466a6d551eeba8567fed18c0cdbca8c35e3c6e4"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0",
+        "signature": "1b820b57379c726f94af50cd60053674af53ff9d079c1563cc70071e8b757dd0"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62",
+        "signature": "efe049114bad1035b0aa9a4a0359f50ab776e3897c411521e51d3013079cbd62"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8",
+        "signature": "e7780d04cd4120ee554c665829db2bbdd6b947cbaa3c150b7d9ea74df3beb2e8"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8",
+        "signature": "f6e0c89daaf72eac38dfb1d5ef0972183f7f26a68da15bfe5bcb7cfccf0c7db8"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.esnext.bigint.d.ts": {
+        "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
+        "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.full.d.ts": {
+        "version": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594",
+        "signature": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/tslib/tslib.d.ts": {
+        "version": "8a0a25ded65c0cb7b03c0109bc6ca580eeb8435bb073c5fb89cd043c9a1ee42e",
+        "signature": "8a0a25ded65c0cb7b03c0109bc6ca580eeb8435bb073c5fb89cd043c9a1ee42e"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/args.d.ts": {
+        "version": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2",
+        "signature": "b8fac2a2a066d140f34e5e0c698440f1f8c8a94eea2c95d156ce821ed53336e2"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/alphabet.d.ts": {
+        "version": "2f79c688ac24759632fe8dda94c822d169cbe2a11f37fe6de1588d653af051ca",
+        "signature": "2f79c688ac24759632fe8dda94c822d169cbe2a11f37fe6de1588d653af051ca"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts": {
+        "version": "4acfa80a7a1e7701c679d03b5e539d05c452c2f9c4ff133f7334ccf359214681",
+        "signature": "4acfa80a7a1e7701c679d03b5e539d05c452c2f9c4ff133f7334ccf359214681"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/metadata.d.ts": {
+        "version": "ebdcf50c5fdb4f68caf05066fb3bd839436a3c39c3154d65dd81a8855382b5e5",
+        "signature": "ebdcf50c5fdb4f68caf05066fb3bd839436a3c39c3154d65dd81a8855382b5e5"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/parse.d.ts": {
+        "version": "ee66d834ddc05efda67651fd52023eef1c8b471e20ec2baee05043f1f62ef635",
+        "signature": "ee66d834ddc05efda67651fd52023eef1c8b471e20ec2baee05043f1f62ef635"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/help.d.ts": {
+        "version": "34e73f0523e9afb52074fcec0844a6334d48bdb2977f944b3e6648da99755bba",
+        "signature": "34e73f0523e9afb52074fcec0844a6334d48bdb2977f944b3e6648da99755bba"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/index.d.ts": {
+        "version": "0096b80854aa269e2d6cb47d7d264cf376ee27f902f71406fb09faa0288432bb",
+        "signature": "0096b80854aa269e2d6cb47d7d264cf376ee27f902f71406fb09faa0288432bb"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts": {
+        "version": "e959961027053278d3c8bde65a01f7726697229ea3cb798b0d15ffdec888ec02",
+        "signature": "e959961027053278d3c8bde65a01f7726697229ea3cb798b0d15ffdec888ec02"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/hooks.d.ts": {
+        "version": "b05352898b844a87fd8ef31b0420dfa584b2c058e39677bd51e0d942af1afe60",
+        "signature": "b05352898b844a87fd8ef31b0420dfa584b2c058e39677bd51e0d942af1afe60"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/pjson.d.ts": {
+        "version": "1e1fa6121eed38a97f548077cd06a16afba9a62e9cc7945d69c0c867449abdbd",
+        "signature": "1e1fa6121eed38a97f548077cd06a16afba9a62e9cc7945d69c0c867449abdbd"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/manifest.d.ts": {
+        "version": "4108bca6ec2cc28598948e80fca629bb096ca3371091ee3bbca6f87c8a8ff3e1",
+        "signature": "4108bca6ec2cc28598948e80fca629bb096ca3371091ee3bbca6f87c8a8ff3e1"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/topic.d.ts": {
+        "version": "bd80422c68e0575fee07883efc93fdbf32da39f76ab8479d56eba05e7fac8363",
+        "signature": "bd80422c68e0575fee07883efc93fdbf32da39f76ab8479d56eba05e7fac8363"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/plugin.d.ts": {
+        "version": "a32bf18b0d7717fbd6217fe18835f32924cd58ac978bdcb88f3fb9577ff6bb05",
+        "signature": "a32bf18b0d7717fbd6217fe18835f32924cd58ac978bdcb88f3fb9577ff6bb05"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/config.d.ts": {
+        "version": "6a30fa9391f874f455bdf5e6216b3fe46112f6cb7063af7c675e5def6c11909d",
+        "signature": "6a30fa9391f874f455bdf5e6216b3fe46112f6cb7063af7c675e5def6c11909d"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts": {
+        "version": "03d343b7b13b8809088b45ab0f6f442adc2b49e2a77ab375d205d018f0d56785",
+        "signature": "03d343b7b13b8809088b45ab0f6f442adc2b49e2a77ab375d205d018f0d56785"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/flags.d.ts": {
+        "version": "013c7f4547d58905da988f8920ab744c454b12c5a1e1fa9108f4d7d67de92998",
+        "signature": "013c7f4547d58905da988f8920ab744c454b12c5a1e1fa9108f4d7d67de92998"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/command.d.ts": {
+        "version": "c19143f1dc63c07fb2dcd98e96b2e2e706fcf85bec8dd27effdf740e86ee3a25",
+        "signature": "c19143f1dc63c07fb2dcd98e96b2e2e706fcf85bec8dd27effdf740e86ee3a25"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/main.d.ts": {
+        "version": "fc1f16ae8cc4ba5bd55869f317a0c2ec0775f47b61b7d61c691bd9b5fc602208",
+        "signature": "fc1f16ae8cc4ba5bd55869f317a0c2ec0775f47b61b7d61c691bd9b5fc602208"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/index.d.ts": {
+        "version": "778d7164f3612aad776e12987f46889f3fe3541e5d9aed5f673daed728b643d5",
+        "signature": "778d7164f3612aad776e12987f46889f3fe3541e5d9aed5f673daed728b643d5"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/src/index.ts": {
+        "version": "37b0cf2713d8c6a145ad7c76ceb1985af28a0261b72b93a575d5a5dd85701261",
+        "signature": "04b2123e996b5c865eec449a1c670c10cee24d12b9f1a97979c0dbbceecc3384"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/src/commands/hello.ts": {
+        "version": "77921bfd9d35df0313f4504220f2005a9d1f7a5d99b4d2a894416e0e0b201be0",
+        "signature": "1b98fbaf2009b4fc8b65bcb9875124b56ccdd41de683316e34d8013fd3178de3"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/chai/index.d.ts": {
+        "version": "c465afa89ac28f74167a2ee7c3c6eb8dd1245c2b3bdaa4704d58d35b932de4b7",
+        "signature": "c465afa89ac28f74167a2ee7c3c6eb8dd1245c2b3bdaa4704d58d35b932de4b7"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts": {
+        "version": "d1fb9170b3b6186d6188b7f45a153386a8d0214a3bc050a0542bf7c067f4b317",
+        "signature": "d1fb9170b3b6186d6188b7f45a153386a8d0214a3bc050a0542bf7c067f4b317"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts": {
+        "version": "b6d3763d7f9ce84118df4340505c24384267ccb48fa8772852260cb5ed4617c2",
+        "signature": "b6d3763d7f9ce84118df4340505c24384267ccb48fa8772852260cb5ed4617c2"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts": {
+        "version": "3bd83f6644fd01feadf16e060ad358b917e01040fcae4301ac042e50e049b482",
+        "signature": "3bd83f6644fd01feadf16e060ad358b917e01040fcae4301ac042e50e049b482"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts": {
+        "version": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
+        "signature": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts": {
+        "version": "45bf6da7cede8211b7d0579deabfa227490dfe8b932a56a962599efc48356e68",
+        "signature": "45bf6da7cede8211b7d0579deabfa227490dfe8b932a56a962599efc48356e68"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts": {
+        "version": "c2d47e5668f89ed8768d306919c42bb88d50d4029d68f58343141360895cfcc0",
+        "signature": "c2d47e5668f89ed8768d306919c42bb88d50d4029d68f58343141360895cfcc0"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts": {
+        "version": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995",
+        "signature": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts": {
+        "version": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
+        "signature": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts": {
+        "version": "3c8b2281afd7efbf11382e4bbbc8db655cd2f1cda05e7a9b35ed45e6ae2bb126",
+        "signature": "3c8b2281afd7efbf11382e4bbbc8db655cd2f1cda05e7a9b35ed45e6ae2bb126"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts": {
+        "version": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
+        "signature": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts": {
+        "version": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5",
+        "signature": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts": {
+        "version": "c84107ce3522799b7a821463b1743ef230669093b2746afd1e817fcbb5885e67",
+        "signature": "c84107ce3522799b7a821463b1743ef230669093b2746afd1e817fcbb5885e67"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts": {
+        "version": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
+        "signature": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/mocha/index.d.ts": {
+        "version": "0d2394ead194f57249ac193360c6529ff4b4ec675e3499651eed6baf20867102",
+        "signature": "0d2394ead194f57249ac193360c6529ff4b4ec675e3499651eed6baf20867102"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/globals.d.ts": {
+        "version": "1bba2fc2e58c0340b92eeb9185be6e75e27d52f10a315aa65810a19b3277f1c7",
+        "signature": "1bba2fc2e58c0340b92eeb9185be6e75e27d52f10a315aa65810a19b3277f1c7"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/assert.d.ts": {
+        "version": "e37e4814461321ef67cbb2f4c9def6be18ff85670e6c665131b320e052905b75",
+        "signature": "e37e4814461321ef67cbb2f4c9def6be18ff85670e6c665131b320e052905b75"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/async_hooks.d.ts": {
+        "version": "138476cfdccbb9e2c7e06602bc216af843a56c4f3469a79106bc660ba94bd66a",
+        "signature": "138476cfdccbb9e2c7e06602bc216af843a56c4f3469a79106bc660ba94bd66a"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/buffer.d.ts": {
+        "version": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d",
+        "signature": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/child_process.d.ts": {
+        "version": "f1086bf9854d882321f28c3691987832c97e5bb360f9bbc5e0e5a150fa055f56",
+        "signature": "f1086bf9854d882321f28c3691987832c97e5bb360f9bbc5e0e5a150fa055f56"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/cluster.d.ts": {
+        "version": "d2704553f735d9b9cf31a26cbf4dd085e89b0ec3eec33d684b2517555370b665",
+        "signature": "d2704553f735d9b9cf31a26cbf4dd085e89b0ec3eec33d684b2517555370b665"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/constants.d.ts": {
+        "version": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598",
+        "signature": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/crypto.d.ts": {
+        "version": "6b956acd0fa4df8f2723012d18498954438874cc63a0bd639dc470135a782101",
+        "signature": "6b956acd0fa4df8f2723012d18498954438874cc63a0bd639dc470135a782101"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dgram.d.ts": {
+        "version": "3d1cb0eaae19fa89fe381bba6d5a149d1bf34efc0134220879f57e2061732a6d",
+        "signature": "3d1cb0eaae19fa89fe381bba6d5a149d1bf34efc0134220879f57e2061732a6d"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts": {
+        "version": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677",
+        "signature": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/domain.d.ts": {
+        "version": "ae3487bdb9b50c1d8bbeb6b55c8b2b9aa79bbc46d7afbc3483169ad8750c4304",
+        "signature": "ae3487bdb9b50c1d8bbeb6b55c8b2b9aa79bbc46d7afbc3483169ad8750c4304"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts": {
+        "version": "4a419878f025046ff6748d073123b0451849f83b7dbca907037a53e3eaa9bbbb",
+        "signature": "4a419878f025046ff6748d073123b0451849f83b7dbca907037a53e3eaa9bbbb"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/fs.d.ts": {
+        "version": "d299cefc49b5324553282f0913be665fc4522f367ab3d1fecbc6d39e987c4c7b",
+        "signature": "d299cefc49b5324553282f0913be665fc4522f367ab3d1fecbc6d39e987c4c7b"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http.d.ts": {
+        "version": "896c59370c35abd48415751b78ce927eda463a20f1a3921bf3dc4962504ec06e",
+        "signature": "896c59370c35abd48415751b78ce927eda463a20f1a3921bf3dc4962504ec06e"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http2.d.ts": {
+        "version": "e36a3ca6d86f19ff207dabc61d27088c464f2dc3ffb64b0daf17dc33b85191e6",
+        "signature": "e36a3ca6d86f19ff207dabc61d27088c464f2dc3ffb64b0daf17dc33b85191e6"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/https.d.ts": {
+        "version": "152af7c23ec219f632afa2d861abc65993f56cd39a4f3a4018515dbc05950a74",
+        "signature": "152af7c23ec219f632afa2d861abc65993f56cd39a4f3a4018515dbc05950a74"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/inspector.d.ts": {
+        "version": "0d668f73487c0d16fd6c1051c61b76d3b590cd986fadea91da08dff459dbec45",
+        "signature": "0d668f73487c0d16fd6c1051c61b76d3b590cd986fadea91da08dff459dbec45"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts": {
+        "version": "56a15cc211894d79aa44cbb46c276bfd3f10458a61bff2dec99114db8a7e71e3",
+        "signature": "56a15cc211894d79aa44cbb46c276bfd3f10458a61bff2dec99114db8a7e71e3"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/os.d.ts": {
+        "version": "0ab49f803fa1d0f26682096e87ae239be05fee89ac538d30c59ab5a15bd38e6a",
+        "signature": "0ab49f803fa1d0f26682096e87ae239be05fee89ac538d30c59ab5a15bd38e6a"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/path.d.ts": {
+        "version": "61c84c3b0eb6e60196d15ae5e21793a1d4241c547f0bdd0529ffae838d1a073c",
+        "signature": "61c84c3b0eb6e60196d15ae5e21793a1d4241c547f0bdd0529ffae838d1a073c"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "981192e57b0e159c977f1d8e8b8576e9d6b4e013b902e9c0d4b178cb47e2dc86",
+        "signature": "981192e57b0e159c977f1d8e8b8576e9d6b4e013b902e9c0d4b178cb47e2dc86"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/process.d.ts": {
+        "version": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "signature": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/punycode.d.ts": {
+        "version": "eeb0d1ad28e70773ac57ae9fe939c3bad6af2525a463c28f9ec31b5953de6735",
+        "signature": "eeb0d1ad28e70773ac57ae9fe939c3bad6af2525a463c28f9ec31b5953de6735"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/querystring.d.ts": {
+        "version": "8969e0b4d22ca77ad011c8fc4a25ec5d515bdfae4ecbd22608ed0d5c38829c1e",
+        "signature": "8969e0b4d22ca77ad011c8fc4a25ec5d515bdfae4ecbd22608ed0d5c38829c1e"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/readline.d.ts": {
+        "version": "544728a999d35afc7b9e6d7420fb10046c16fcc5cb54fef21d2f5de78bf98830",
+        "signature": "544728a999d35afc7b9e6d7420fb10046c16fcc5cb54fef21d2f5de78bf98830"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/repl.d.ts": {
+        "version": "d0b0b533dc34ff7ffd019665fdc2b2aeae717bc1347e17a5bdc4d6572b5c109a",
+        "signature": "d0b0b533dc34ff7ffd019665fdc2b2aeae717bc1347e17a5bdc4d6572b5c109a"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts": {
+        "version": "c07900741b39a32e2167f08aadcdea84b077727f828f27ceebf534715ea66d97",
+        "signature": "c07900741b39a32e2167f08aadcdea84b077727f828f27ceebf534715ea66d97"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/string_decoder.d.ts": {
+        "version": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948",
+        "signature": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tls.d.ts": {
+        "version": "68f639766f4b9d5c832bbca1203955969a8686137a4a197285dd64519cc26e58",
+        "signature": "68f639766f4b9d5c832bbca1203955969a8686137a4a197285dd64519cc26e58"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/trace_events.d.ts": {
+        "version": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "signature": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tty.d.ts": {
+        "version": "3a59044813b24482ad7a7963bbee6b62507561969e273fbdc992ed9bc948fe13",
+        "signature": "3a59044813b24482ad7a7963bbee6b62507561969e273fbdc992ed9bc948fe13"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts": {
+        "version": "431151f55411c3f27cf539b987a7d1de453188ed58e54bc946183d280d3444a2",
+        "signature": "431151f55411c3f27cf539b987a7d1de453188ed58e54bc946183d280d3444a2"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts": {
+        "version": "766b7f1a0e67ed1106ae02583408d9e3a820201c4539f9bed8be8e4f07ee6e92",
+        "signature": "766b7f1a0e67ed1106ae02583408d9e3a820201c4539f9bed8be8e4f07ee6e92"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/v8.d.ts": {
+        "version": "e880a08fbb0d9ee2f733f9183f4d1bdb75bc9e0e64060a8a1fc30540791fcded",
+        "signature": "e880a08fbb0d9ee2f733f9183f4d1bdb75bc9e0e64060a8a1fc30540791fcded"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/vm.d.ts": {
+        "version": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9",
+        "signature": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/worker_threads.d.ts": {
+        "version": "e761c833140e3ab6f9deab37fe034154f3eb15547dce61395d9b0b1f130f3fa3",
+        "signature": "e761c833140e3ab6f9deab37fe034154f3eb15547dce61395d9b0b1f130f3fa3"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/zlib.d.ts": {
+        "version": "58257a0147702ab415ed18164557a0feb9c5d1351792ea293a876e6b7ed0c559",
+        "signature": "58257a0147702ab415ed18164557a0feb9c5d1351792ea293a876e6b7ed0c559"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/base.d.ts": {
+        "version": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "signature": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "signature": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "ce6b191c382ee19f23678b8c364484627bcf424e8f408357a2f5530fb8d52a45",
+        "signature": "ce6b191c382ee19f23678b8c364484627bcf424e8f408357a2f5530fb8d52a45"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/nock/index.d.ts": {
+        "version": "24126889d0daf7cf90b11f58a53578ffca8c5c46e84a179c4efd5d85694402de",
+        "signature": "24126889d0daf7cf90b11f58a53578ffca8c5c46e84a179c4efd5d85694402de"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/sinon/ts3.1/index.d.ts": {
+        "version": "3fdf5e086de03fc17dd943691526d07bc4d951ec223e4685cac5f21d6533de3e",
+        "signature": "3fdf5e086de03fc17dd943691526d07bc4d951ec223e4685cac5f21d6533de3e"
+      },
+      "/users/hiroaki/dev/pj/jic/repos/node_modules/@types/zen-observable/index.d.ts": {
+        "version": "4aef077167abe884ed5cdcf9415cc1e3bb5b9763fd0549e179bc70584a0aab91",
+        "signature": "4aef077167abe884ed5cdcf9415cc1e3bb5b9763fd0549e179bc70584a0aab91"
+      }
+    },
+    "options": {
+      "declaration": true,
+      "importHelpers": true,
+      "module": 1,
+      "outDir": "/Users/hiroaki/Dev/pj/jic/repos/cognito-userpool-cli/lib",
+      "rootDir": "/Users/hiroaki/Dev/pj/jic/repos/cognito-userpool-cli/src",
+      "strict": true,
+      "target": 4,
+      "composite": true,
+      "configFilePath": "/Users/hiroaki/Dev/pj/jic/repos/cognito-userpool-cli/tsconfig.json"
+    },
+    "referencedMap": {
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.full.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/tslib/tslib.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/args.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/alphabet.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/alphabet.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/metadata.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/parse.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/args.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/metadata.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/help.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/args.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/parse.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/help.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/hooks.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/pjson.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/manifest.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/topic.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/plugin.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/manifest.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/topic.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/config.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/hooks.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/plugin.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/topic.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/config.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/hooks.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/manifest.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/plugin.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/topic.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/flags.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/command.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/main.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/command.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/main.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/src/index.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/src/commands/hello.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/chai/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/mocha/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/globals.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/assert.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/async_hooks.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/buffer.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/child_process.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/cluster.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/child_process.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/console.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/constants.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/crypto.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dgram.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/domain.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/fs.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http2.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/fs.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tls.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/https.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tls.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/inspector.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/module.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/os.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/path.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/async_hooks.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/process.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/punycode.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/querystring.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/readline.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/repl.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/readline.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/vm.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/timers.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tls.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/crypto.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/trace_events.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tty.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/querystring.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/v8.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/vm.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/zlib.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/base.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/globals.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/assert.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/async_hooks.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/buffer.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/child_process.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/cluster.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/console.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/constants.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/crypto.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dgram.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/domain.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/fs.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http2.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/https.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/inspector.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/module.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/os.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/path.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/perf_hooks.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/process.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/punycode.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/querystring.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/readline.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/repl.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/string_decoder.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/timers.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tls.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/trace_events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tty.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/v8.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/vm.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/worker_threads.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/zlib.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/globals.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/base.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/nock/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/sinon/ts3.1/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/node_modules/@types/zen-observable/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es5.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2016.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.dom.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.dom.iterable.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.full.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/tslib/tslib.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/args.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/alphabet.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/alphabet.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/metadata.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/parse.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/args.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/metadata.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/help.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/args.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/parse.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/help.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/hooks.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/pjson.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/manifest.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/topic.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/plugin.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/manifest.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/topic.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/config.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/hooks.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/plugin.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/topic.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/config.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/hooks.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/manifest.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/plugin.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/topic.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/flags.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/command.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/main.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/command.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/main.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/src/index.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/src/commands/hello.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/index.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/chai/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/mocha/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/globals.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/assert.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/async_hooks.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/buffer.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/child_process.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/cluster.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/child_process.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/console.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/constants.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/crypto.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dgram.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/domain.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/fs.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http2.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/fs.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tls.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/https.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tls.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/inspector.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/module.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/os.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/path.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/perf_hooks.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/async_hooks.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/process.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/punycode.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/querystring.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/readline.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/repl.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/readline.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/vm.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/string_decoder.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/timers.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tls.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/crypto.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/trace_events.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tty.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/querystring.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/v8.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/vm.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/worker_threads.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/zlib.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/base.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/globals.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/assert.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/async_hooks.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/buffer.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/child_process.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/cluster.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/console.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/constants.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/crypto.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dgram.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/domain.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/fs.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http2.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/https.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/inspector.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/module.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/os.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/path.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/perf_hooks.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/process.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/punycode.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/querystring.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/readline.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/repl.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/string_decoder.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/timers.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tls.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/trace_events.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tty.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/v8.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/vm.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/worker_threads.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/zlib.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/globals.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/globals.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/base.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/globals.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/nock/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/index.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/sinon/ts3.1/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "/users/hiroaki/dev/pj/jic/repos/node_modules/@types/zen-observable/index.d.ts": [
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+        "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es5.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2016.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.dom.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.scripthost.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/typescript/lib/lib.es2017.full.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/tslib/tslib.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/args.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/alphabet.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/flags.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/metadata.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/parse.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/help.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/parser/lib/index.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/command.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/hooks.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/pjson.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/manifest.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/topic.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/plugin.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/config.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/config/lib/index.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/flags.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/command.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/main.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@oclif/command/lib/index.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/src/index.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/src/commands/hello.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/chai/index.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/common.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/array.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/date.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/function.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/math.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/number.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/object.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/string.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/common/util.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/lodash/ts3.1/index.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/mocha/index.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/globals.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/assert.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/async_hooks.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/buffer.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/child_process.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/cluster.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/console.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/constants.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/crypto.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dgram.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/dns.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/domain.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/events.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/fs.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/http2.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/https.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/inspector.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/module.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/net.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/os.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/path.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/perf_hooks.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/process.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/punycode.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/querystring.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/readline.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/repl.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/stream.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/string_decoder.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/timers.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tls.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/trace_events.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/tty.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/url.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/util.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/v8.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/vm.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/worker_threads.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/zlib.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/base.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/util.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/globals.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/node/ts3.2/index.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/nock/index.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/cognito-userpool-cli/node_modules/@types/sinon/ts3.1/index.d.ts",
+      "/users/hiroaki/dev/pj/jic/repos/node_modules/@types/zen-observable/index.d.ts"
+    ]
+  },
+  "version": "3.4.5"
+}

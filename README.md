@@ -28,8 +28,25 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`cognito-userpool-cli configure [FILE]`](#cognito-userpool-cli-configure-file)
 * [`cognito-userpool-cli hello [FILE]`](#cognito-userpool-cli-hello-file)
 * [`cognito-userpool-cli help [COMMAND]`](#cognito-userpool-cli-help-command)
+
+## `cognito-userpool-cli configure [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ cognito-userpool-cli configure [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.0.0/src/commands/configure.ts)_
 
 ## `cognito-userpool-cli hello [FILE]`
 

@@ -19,7 +19,7 @@ $ npm install -g @hiroga/cognito-userpool-cli
 $ cognito-userpool-cli COMMAND
 running command...
 $ cognito-userpool-cli (-v|--version|version)
-@hiroga/cognito-userpool-cli/0.0.0 darwin-x64 node-v10.5.0
+@hiroga/cognito-userpool-cli/0.1.3 darwin-x64 node-v10.5.0
 $ cognito-userpool-cli --help [COMMAND]
 USAGE
   $ cognito-userpool-cli COMMAND
@@ -28,18 +28,18 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`cognito-userpool-cli configure [FILE]`](#cognito-userpool-cli-configure-file)
+* [`cognito-userpool-cli configure`](#cognito-userpool-cli-configure)
 * [`cognito-userpool-cli hello [FILE]`](#cognito-userpool-cli-hello-file)
 * [`cognito-userpool-cli help [COMMAND]`](#cognito-userpool-cli-help-command)
-* [`cognito-userpool-cli signin [FILE]`](#cognito-userpool-cli-signin-file)
+* [`cognito-userpool-cli signin`](#cognito-userpool-cli-signin)
 
-## `cognito-userpool-cli configure [FILE]`
+## `cognito-userpool-cli configure`
 
 describe the command here
 
 ```
 USAGE
-  $ cognito-userpool-cli configure [FILE]
+  $ cognito-userpool-cli configure
 
 OPTIONS
   -c, --client=client      userpool client id to access
@@ -48,7 +48,7 @@ OPTIONS
   -u, --userpool=userpool  userpool id to access
 ```
 
-_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.0.0/src/commands/configure.ts)_
+_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.3/src/commands/configure.ts)_
 
 ## `cognito-userpool-cli hello [FILE]`
 
@@ -68,7 +68,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.3/src/commands/hello.ts)_
 
 ## `cognito-userpool-cli help [COMMAND]`
 
@@ -87,19 +87,20 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
 
-## `cognito-userpool-cli signin [FILE]`
+## `cognito-userpool-cli signin`
 
 describe the command here
 
 ```
 USAGE
-  $ cognito-userpool-cli signin [FILE]
+  $ cognito-userpool-cli signin
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help                 show CLI help
+  -p, --password=password    password
+  -u, --user=user            user
+  --newPassword=newPassword  new-password
 ```
 
-_See code: [src/commands/signin.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.0.0/src/commands/signin.ts)_
+_See code: [src/commands/signin.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.3/src/commands/signin.ts)_
 <!-- commandsstop -->

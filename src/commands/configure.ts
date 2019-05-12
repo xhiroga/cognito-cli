@@ -24,8 +24,6 @@ export default class Configure extends Command {
     client: flags.string({ char: 'c', description: 'userpool client id to access' }),
   }
 
-  static args = [{ name: 'file' }]
-
   async run() {
     const { args, flags } = this.parse(Configure)
 

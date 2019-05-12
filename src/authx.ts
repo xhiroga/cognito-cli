@@ -12,6 +12,11 @@ export default class Authx {
         amplify.configure(config);
     }
 
+    /**
+     * signIn仕様についてメモ
+     * Clientに`USER_PASSWORD_AUTH` が許可されていない場合、`USER_PASSWORD_AUTH flow not enabled for this client` などエラーになる。
+     * CognitoUser: authenticationFlowType:の値はUserPoolのデフォルトの認証フローに過ぎない。
+     */
     async signIn(username: String, password: String, newPassword?: String) {
         return amplify.Auth.signIn(username, password)
             .then(async (user: any) => {

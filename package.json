@@ -12,6 +12,7 @@
     "@oclif/config": "^1.13.0",
     "@oclif/plugin-help": "^2.1.6",
     "@types/fs-extra": "^5.1.0",
+    "@types/graphql": "^14.2.0",
     "@types/mkdirp": "^0.5.2",
     "@types/node-fetch": "^2.3.3",
     "aws-amplify": "^1.1.27",

@@ -30,7 +30,6 @@ USAGE
 <!-- commands -->
 * [`cognito-userpool-cli configure`](#cognito-userpool-cli-configure)
 * [`cognito-userpool-cli forget-password [FILE]`](#cognito-userpool-cli-forget-password-file)
-* [`cognito-userpool-cli hello [FILE]`](#cognito-userpool-cli-hello-file)
 * [`cognito-userpool-cli help [COMMAND]`](#cognito-userpool-cli-help-command)
 * [`cognito-userpool-cli signin`](#cognito-userpool-cli-signin)
 
@@ -66,26 +65,6 @@ OPTIONS
 ```
 
 _See code: [src/commands/forget-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.3/src/commands/forget-password.ts)_
-
-## `cognito-userpool-cli hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ cognito-userpool-cli hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ cognito-userpool-cli hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.3/src/commands/hello.ts)_
 
 ## `cognito-userpool-cli help [COMMAND]`
 

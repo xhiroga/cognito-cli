@@ -29,7 +29,7 @@ USAGE
 # Commands
 <!-- commands -->
 * [`cognito-userpool-cli configure`](#cognito-userpool-cli-configure)
-* [`cognito-userpool-cli forget-password [FILE]`](#cognito-userpool-cli-forget-password-file)
+* [`cognito-userpool-cli forgot-password`](#cognito-userpool-cli-forgot-password-file)
 * [`cognito-userpool-cli help [COMMAND]`](#cognito-userpool-cli-help-command)
 * [`cognito-userpool-cli signin`](#cognito-userpool-cli-signin)
 
@@ -50,20 +50,20 @@ OPTIONS
 
 _See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.3/src/commands/configure.ts)_
 
-## `cognito-userpool-cli forget-password`
+## `cognito-userpool-cli forgot-password`
 
 describe the command here
 
 ```
 USAGE
-  $ cognito-userpool-cli forget-password [FILE]
+  $ cognito-userpool-cli forgot-password [FILE]
 
 OPTIONS
   -h, --help       show CLI help
   -u, --user=user  username to reset password
 ```
 
-_See code: [src/commands/forget-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.3/src/commands/forget-password.ts)_
+_See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.3/src/commands/forgot-password.ts)_
 
 ## `cognito-userpool-cli help [COMMAND]`
 

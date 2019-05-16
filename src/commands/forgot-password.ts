@@ -4,7 +4,7 @@ import Authx from "../authx"
 import * as fs from 'fs-extra'
 import * as path from 'path'
 
-export default class ForgetPassword extends Command {
+export default class ForgotPassword extends Command {
   static description = 'describe the command here'
 
   static flags = {
@@ -14,7 +14,7 @@ export default class ForgetPassword extends Command {
   static args = [{ name: 'file' }]
 
   async run() {
-    const { args, flags } = this.parse(ForgetPassword)
+    const { args, flags } = this.parse(ForgotPassword)
     if (!flags.user) {
       this.log(`parameter user is required!`)
       return

@@ -1,7 +1,7 @@
 {
   "name": "@hiroga/cognito-userpool-cli",
   "description": "cli tool for Cognito UserPool (ex. signin, forgotPasswordSubmit, etc...)",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "Hiroaki Ogasawara @hiroga-cc",
   "bin": {
     "cognito-userpool-cli": "./bin/run"

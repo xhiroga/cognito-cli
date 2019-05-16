@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`cognito-userpool-cli configure`](#cognito-userpool-cli-configure)
 * [`cognito-userpool-cli forgot-password`](#cognito-userpool-cli-forgot-password)
+* [`cognito-userpool-cli get-id [FILE]`](#cognito-userpool-cli-get-id-file)
 * [`cognito-userpool-cli help [COMMAND]`](#cognito-userpool-cli-help-command)
 * [`cognito-userpool-cli signin`](#cognito-userpool-cli-signin)
 
@@ -42,11 +43,12 @@ USAGE
   $ cognito-userpool-cli configure
 
 OPTIONS
-  -c, --client=client                                  userpool client id to access
-  -f, --authenticationFlowType=authenticationFlowType  authentication flow type
+  -a, --authenticationFlowType=authenticationFlowType  authentication flow type
+  -c, --client=client                                  userpool client id
+  -f, --federatedIdentity=federatedIdentity            federated identity id
   -h, --help                                           show CLI help
-  -r, --region=region                                  region to access
-  -u, --userpool=userpool                              userpool id to access
+  -r, --region=region                                  region
+  -u, --userpool=userpool                              userpool id
 ```
 
 _See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.6/src/commands/configure.ts)_
@@ -67,6 +69,22 @@ OPTIONS
 ```
 
 _See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.6/src/commands/forgot-password.ts)_
+
+## `cognito-userpool-cli get-id [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ cognito-userpool-cli get-id [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/get-id.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.6/src/commands/get-id.ts)_
 
 ## `cognito-userpool-cli help [COMMAND]`
 

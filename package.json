@@ -16,6 +16,7 @@
     "@types/mkdirp": "^0.5.2",
     "@types/node-fetch": "^2.3.3",
     "aws-amplify": "^1.1.10",
+    "aws-sdk": "^2.456.0",
     "fs-extra": "^7.0.1",
     "mkdirp": "^0.5.1",
     "node-fetch": "^2.5.0",

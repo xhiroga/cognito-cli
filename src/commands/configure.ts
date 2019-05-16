@@ -66,7 +66,6 @@ export default class Configure extends Command {
 
     this.log(`config: ${JSON.stringify(userConfig)}`)
 
-
     fs.writeFile(configPath, JSON.stringify(userConfig, null, 2))
   }
 }

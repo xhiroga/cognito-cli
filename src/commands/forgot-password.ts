@@ -11,8 +11,6 @@ export default class ForgotPassword extends Command {
     user: flags.string({ char: 'u', description: 'username to reset password' }),
   }
 
-  static args = [{ name: 'file' }]
-
   async run() {
     const { args, flags } = this.parse(ForgotPassword)
     if (!flags.user) {

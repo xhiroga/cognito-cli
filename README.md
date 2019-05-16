@@ -19,7 +19,7 @@ $ npm install -g @hiroga/cognito-userpool-cli
 $ cognito-userpool-cli COMMAND
 running command...
 $ cognito-userpool-cli (-v|--version|version)
-@hiroga/cognito-userpool-cli/0.1.5 darwin-x64 node-v10.5.0
+@hiroga/cognito-userpool-cli/0.1.6 darwin-x64 node-v10.5.0
 $ cognito-userpool-cli --help [COMMAND]
 USAGE
   $ cognito-userpool-cli COMMAND
@@ -49,7 +49,7 @@ OPTIONS
   -u, --userpool=userpool                              userpool id to access
 ```
 
-_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.5/src/commands/configure.ts)_
+_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.6/src/commands/configure.ts)_
 
 ## `cognito-userpool-cli forgot-password`
 
@@ -60,10 +60,13 @@ USAGE
   $ cognito-userpool-cli forgot-password
 
 OPTIONS
-  -u, --user=user  username to reset password
+  -c, --code=code          confirmation code
+  -p, --password=password  newpassword
+  -s, --submit             submit new password
+  -u, --user=user          username to reset password
 ```
 
-_See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.5/src/commands/forgot-password.ts)_
+_See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.6/src/commands/forgot-password.ts)_
 
 ## `cognito-userpool-cli help [COMMAND]`
 
@@ -97,5 +100,5 @@ OPTIONS
   --newPassword=newPassword  new-password
 ```
 
-_See code: [src/commands/signin.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.5/src/commands/signin.ts)_
+_See code: [src/commands/signin.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.6/src/commands/signin.ts)_
 <!-- commandsstop -->

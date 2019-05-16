@@ -59,9 +59,8 @@ USAGE
   $ cognito-userpool-cli forget-password [FILE]
 
 OPTIONS
-  -f, --force
   -h, --help       show CLI help
-  -n, --name=name  name to print
+  -u, --user=user  username to reset password
 ```
 
 _See code: [src/commands/forget-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.3/src/commands/forget-password.ts)_

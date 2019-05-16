@@ -9,8 +9,12 @@ const initialConfig = {
     "userPoolId": "",
     "userPoolWebClientId": "",
     "authenticationFlowType": ""
+  },
+  "CognitoIdentity": {
+    "IdentityPoolId": ""
   }
 }
+
 
 // https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_InitiateAuth.html
 const AuthFlows = [
@@ -27,14 +31,11 @@ export default class Configure extends Command {
 
   static flags = {
     help: flags.help({ char: 'h' }),
-    // flag with a value (-r, --region=VALUE)
-    region: flags.string({ char: 'r', description: 'region to access' }),
-    // flag with a value (-u, --userpool=VALUE)
-    userpool: flags.string({ char: 'u', description: 'userpool id to access' }),
-    // flag with a value (-c, --client=VALUE)
-    client: flags.string({ char: 'c', description: 'userpool client id to access' }),
-
-    authenticationFlowType: flags.string({ char: 'f', description: 'authentication flow type' }),
+    region: flags.string({ char: 'r', description: 'region' }),
+    userpool: flags.string({ char: 'u', description: 'userpool id' }),
+    client: flags.string({ char: 'c', description: 'userpool client id' }),
+    federatedIdentity: flags.string({ char: 'f', description: 'federated identity id' }),
+    authenticationFlowType: flags.string({ char: 'a', description: 'authentication flow type' }),
   }
 
   async run() {
@@ -61,8 +62,10 @@ export default class Configure extends Command {
         return
       }
     }
+    if (flags.federatedIdentity) { userConfig.CognitoIdentity.IdentityPoolId = flags.federatedIdentity }
 
-    this.log(`config.Auth: ${JSON.stringify(userConfig.Auth)}`)
+    this.log(`config: ${JSON.stringify(userConfig)}`)
+
 
     fs.writeFile(configPath, JSON.stringify(userConfig, null, 2))
   }

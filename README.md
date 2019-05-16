@@ -50,7 +50,7 @@ OPTIONS
 
 _See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.3/src/commands/configure.ts)_
 
-## `cognito-userpool-cli forget-password [FILE]`
+## `cognito-userpool-cli forget-password`
 
 describe the command here
 

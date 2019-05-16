@@ -19,7 +19,7 @@ $ npm install -g @hiroga/cognito-userpool-cli
 $ cognito-userpool-cli COMMAND
 running command...
 $ cognito-userpool-cli (-v|--version|version)
-@hiroga/cognito-userpool-cli/0.1.4 darwin-x64 node-v10.5.0
+@hiroga/cognito-userpool-cli/0.1.5 darwin-x64 node-v10.5.0
 $ cognito-userpool-cli --help [COMMAND]
 USAGE
   $ cognito-userpool-cli COMMAND
@@ -29,7 +29,7 @@ USAGE
 # Commands
 <!-- commands -->
 * [`cognito-userpool-cli configure`](#cognito-userpool-cli-configure)
-* [`cognito-userpool-cli forgot-password [FILE]`](#cognito-userpool-cli-forgot-password-file)
+* [`cognito-userpool-cli forgot-password`](#cognito-userpool-cli-forgot-password)
 * [`cognito-userpool-cli help [COMMAND]`](#cognito-userpool-cli-help-command)
 * [`cognito-userpool-cli signin`](#cognito-userpool-cli-signin)
 
@@ -49,21 +49,21 @@ OPTIONS
   -u, --userpool=userpool                              userpool id to access
 ```
 
-_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.4/src/commands/configure.ts)_
+_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.5/src/commands/configure.ts)_
 
-## `cognito-userpool-cli forgot-password [FILE]`
+## `cognito-userpool-cli forgot-password`
 
 describe the command here
 
 ```
 USAGE
-  $ cognito-userpool-cli forgot-password [FILE]
+  $ cognito-userpool-cli forgot-password
 
 OPTIONS
   -u, --user=user  username to reset password
 ```
 
-_See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.4/src/commands/forgot-password.ts)_
+_See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.5/src/commands/forgot-password.ts)_
 
 ## `cognito-userpool-cli help [COMMAND]`
 
@@ -97,5 +97,5 @@ OPTIONS
   --newPassword=newPassword  new-password
 ```
 
-_See code: [src/commands/signin.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.4/src/commands/signin.ts)_
+_See code: [src/commands/signin.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.5/src/commands/signin.ts)_
 <!-- commandsstop -->

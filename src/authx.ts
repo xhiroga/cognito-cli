@@ -48,7 +48,7 @@ export default class Authx {
 
     async forgotPasswordSubmit(username: String, code: String, newPassword: String) {
         return amplify.Auth.forgotPasswordSubmit(username, code, newPassword)
-            .then((data: any) => { console.log(data); return data })
+            .then((data: any) => { return data }) //undefined
             .catch((err: any) => console.log(err));
     }
 

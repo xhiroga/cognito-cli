@@ -31,6 +31,8 @@ USAGE
 * [`cognito-userpool-cli configure`](#cognito-userpool-cli-configure)
 * [`cognito-userpool-cli forgot-password`](#cognito-userpool-cli-forgot-password)
 * [`cognito-userpool-cli get-id`](#cognito-userpool-cli-get-id)
+* [`cognito-userpool-cli get-open-id`](#cognito-userpool-cli-get-open-id)
+* [`cognito-userpool-cli get-open-id-token [FILE]`](#cognito-userpool-cli-get-open-id-token-file)
 * [`cognito-userpool-cli help [COMMAND]`](#cognito-userpool-cli-help-command)
 * [`cognito-userpool-cli signin`](#cognito-userpool-cli-signin)
 
@@ -84,6 +86,38 @@ OPTIONS
 ```
 
 _See code: [src/commands/get-id.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.7/src/commands/get-id.ts)_
+
+## `cognito-userpool-cli get-open-id`
+
+describe the command here
+
+```
+USAGE
+  $ cognito-userpool-cli get-open-id
+
+OPTIONS
+  -h, --help         show CLI help
+  -i, --id=id        This known Cognito ID is returned by GetId.
+  -t, --token=token  token
+```
+
+_See code: [src/commands/get-open-id.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.7/src/commands/get-open-id.ts)_
+
+## `cognito-userpool-cli get-open-id-token [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ cognito-userpool-cli get-open-id-token [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/get-open-id-token.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.7/src/commands/get-open-id-token.ts)_
 
 ## `cognito-userpool-cli help [COMMAND]`
 

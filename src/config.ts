@@ -12,7 +12,13 @@ const initialConfig = {
     "CognitoIdentity": {
         "IdentityPoolId": ""
     },
-    "Response": {}
+    "Response": {
+        "idToken": "",
+        "refreshToken": "",
+        "accessToken": "",
+        "identityId": "",
+        "openIdToken": ""
+    }
 }
 
 export default class Config {
@@ -33,6 +39,7 @@ export default class Config {
             if (userConfig.Auth.userPoolWebClientId) { config.Auth.userPoolWebClientId = userConfig.Auth.userPoolWebClientId }
             if (userConfig.Auth.authenticationFlowType) { config.Auth.authenticationFlowType = userConfig.Auth.authenticationFlowType }
             if (userConfig.CognitoIdentity.IdentityPoolId) { config.CognitoIdentity.IdentityPoolId = userConfig.CognitoIdentity.IdentityPoolId }
+            if (userConfig.Response) { config.Response = userConfig.Response }
         } else {
             console.log(`profile ${profile} is initialized.`)
         }

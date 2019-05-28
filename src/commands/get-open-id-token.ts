@@ -15,10 +15,6 @@ export default class GetOpenIdToken extends Command {
 
   async run() {
     const { args, flags } = this.parse(GetOpenIdToken)
-    if (!flags.token || !flags.id) {
-      throw new Error(`token and id should not be empty`)
-    }
-
     const config = await Config.load(this.config.configDir, flags.profile)
     const region: string = config.Auth.region
     const userPoolId: string = config.Auth.userPoolId
@@ -27,24 +23,35 @@ export default class GetOpenIdToken extends Command {
       region: region
     });
 
+    const token = flags.token ? flags.token : config.Response.idToken
+    const id = flags.id ? flags.id : config.Response.identityId
+    if (!token || !id) {
+      throw new Error(`token and id should not be empty`)
+    }
+
     const provider: string = `cognito-idp.${region}.amazonaws.com/${userPoolId}`
     type Dict = { [key: string]: string };
-    const logins: Dict = { [provider]: flags.token }
+    const logins: Dict = { [provider]: token }
 
     const param = {
-      IdentityId: flags.id,
+      IdentityId: id,
       Logins: logins
     }
 
-    const identityIdAndToken = await new Promise((resolve, reject) => {
+    const openIdToken = await new Promise((resolve, reject) => {
       cognitoidentity.getOpenIdToken(param, function (err, data) {
         if (err) {
           reject(err); return
         }
-        resolve(data)
+        resolve(data.Token)
       })
     })
 
-    this.log(`IdentityId: ${JSON.stringify({ identityIdAndToken })}`)
+    const response = {
+      "openIdToken": openIdToken
+    }
+    this.log(`${JSON.stringify(response)}`)
+    Object.assign(config.Response, response)
+    await Config.save(config, this.config.configDir, flags.profile)
   }
 }

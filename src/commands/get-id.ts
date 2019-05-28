@@ -15,21 +15,21 @@ export default class GetId extends Command {
 
   async run() {
     const { args, flags } = this.parse(GetId)
-    if (!flags.token) {
-      throw new Error(`flags.token should not be empty`)
-    }
-
     const config = await Config.load(this.config.configDir, flags.profile)
     const region: string = config.Auth.region
     const userPoolId: string = config.Auth.userPoolId
-
     const cognitoidentity = new CognitoIdentity({
       region: region
     });
 
+    const token = flags.token ? flags.token : config.Response.idToken
+    if (!token) {
+      throw new Error(`either flags.token or idToken saved in configuration is required.`)
+    }
+
     const provider: string = `cognito-idp.${region}.amazonaws.com/${userPoolId}`
     type Dict = { [key: string]: string };
-    const logins: Dict = { [provider]: flags.token }
+    const logins: Dict = { [provider]: token }
 
     const param: GetIdInput = {
       IdentityPoolId: config.CognitoIdentity.IdentityPoolId,
@@ -45,6 +45,9 @@ export default class GetId extends Command {
       })
     })
 
-    this.log(`IdentityId: ${JSON.stringify({ identityId })}`)
+    const response = { "identityId": identityId }
+    this.log(`${JSON.stringify(response)}`)
+    Object.assign(config.Response, response)
+    await Config.save(config, this.config.configDir, flags.profile)
   }
 }

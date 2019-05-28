@@ -23,6 +23,14 @@ export default class Signin extends Command {
     const config = await Config.load(this.config.configDir, flags.profile)
     const authx = new Authx(config)
     const user = await authx.signIn(flags.user, flags.password, flags.newPassword)
-    this.log(`user: ${JSON.stringify(user)}`)
+
+    const response = {
+      "idToken": user.signInUserSession.idToken.jwtToken,
+      "refreshToken": user.signInUserSession.refreshToken.token,
+      "accessToken": user.signInUserSession.accessToken.jwtToken
+    }
+    this.log(`${JSON.stringify(response)}`)
+    Object.assign(config.Response, response)
+    await Config.save(config, this.config.configDir, flags.profile)
   }
 }

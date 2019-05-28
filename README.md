@@ -19,7 +19,7 @@ $ npm install -g @hiroga/cognito-userpool-cli
 $ cognito-userpool-cli COMMAND
 running command...
 $ cognito-userpool-cli (-v|--version|version)
-@hiroga/cognito-userpool-cli/0.1.8 darwin-x64 node-v10.5.0
+@hiroga/cognito-userpool-cli/0.1.9 darwin-x64 node-v10.5.0
 $ cognito-userpool-cli --help [COMMAND]
 USAGE
   $ cognito-userpool-cli COMMAND
@@ -30,7 +30,7 @@ USAGE
 <!-- commands -->
 * [`cognito-userpool-cli configure`](#cognito-userpool-cli-configure)
 * [`cognito-userpool-cli forgot-password`](#cognito-userpool-cli-forgot-password)
-* [`cognito-userpool-cli get-credentials-for-identity [FILE]`](#cognito-userpool-cli-get-credentials-for-identity-file)
+* [`cognito-userpool-cli get-credentials-for-identity`](#cognito-userpool-cli-get-credentials-for-identity)
 * [`cognito-userpool-cli get-id`](#cognito-userpool-cli-get-id)
 * [`cognito-userpool-cli get-open-id-token`](#cognito-userpool-cli-get-open-id-token)
 * [`cognito-userpool-cli help [COMMAND]`](#cognito-userpool-cli-help-command)
@@ -51,9 +51,10 @@ OPTIONS
   -h, --help                                           show CLI help
   -r, --region=region                                  region
   -u, --userpool=userpool                              userpool id
+  --profile=profile                                    configure name
 ```
 
-_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.8/src/commands/configure.ts)_
+_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.9/src/commands/configure.ts)_
 
 ## `cognito-userpool-cli forgot-password`
 
@@ -66,27 +67,28 @@ USAGE
 OPTIONS
   -c, --code=code          confirmation code
   -p, --password=password  newpassword
-  -s, --submit             submit new password
   -u, --user=user          username to reset password
+  --profile=profile        configure name
 ```
 
-_See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.8/src/commands/forgot-password.ts)_
+_See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.9/src/commands/forgot-password.ts)_
 
-## `cognito-userpool-cli get-credentials-for-identity [FILE]`
+## `cognito-userpool-cli get-credentials-for-identity`
 
 describe the command here
 
 ```
 USAGE
-  $ cognito-userpool-cli get-credentials-for-identity [FILE]
+  $ cognito-userpool-cli get-credentials-for-identity
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help         show CLI help
+  -i, --id=id        This known Cognito ID is returned by GetId.
+  -t, --token=token  token
+  --profile=profile  configure name
 ```
 
-_See code: [src/commands/get-credentials-for-identity.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.8/src/commands/get-credentials-for-identity.ts)_
+_See code: [src/commands/get-credentials-for-identity.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.9/src/commands/get-credentials-for-identity.ts)_
 
 ## `cognito-userpool-cli get-id`
 
@@ -99,9 +101,10 @@ USAGE
 OPTIONS
   -h, --help         show CLI help
   -t, --token=token  token
+  --profile=profile  configure name
 ```
 
-_See code: [src/commands/get-id.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.8/src/commands/get-id.ts)_
+_See code: [src/commands/get-id.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.9/src/commands/get-id.ts)_
 
 ## `cognito-userpool-cli get-open-id-token`
 
@@ -115,9 +118,10 @@ OPTIONS
   -h, --help         show CLI help
   -i, --id=id        This known Cognito ID is returned by GetId.
   -t, --token=token  token
+  --profile=profile  configure name
 ```
 
-_See code: [src/commands/get-open-id-token.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.8/src/commands/get-open-id-token.ts)_
+_See code: [src/commands/get-open-id-token.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.9/src/commands/get-open-id-token.ts)_
 
 ## `cognito-userpool-cli help [COMMAND]`
 
@@ -145,11 +149,12 @@ USAGE
   $ cognito-userpool-cli signin
 
 OPTIONS
-  -h, --help                 show CLI help
-  -p, --password=password    password
-  -u, --user=user            user
-  --newPassword=newPassword  new-password
+  -h, --help                     show CLI help
+  -n, --newPassword=newPassword  new-password
+  -p, --password=password        password
+  -u, --user=user                user
+  --profile=profile              configure name
 ```
 
-_See code: [src/commands/signin.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.8/src/commands/signin.ts)_
+_See code: [src/commands/signin.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.9/src/commands/signin.ts)_
 <!-- commandsstop -->

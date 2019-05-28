@@ -10,6 +10,7 @@ export default class GetId extends Command {
   static flags = {
     help: flags.help({ char: 'h' }),
     token: flags.string({ char: 't', description: 'token' }),
+    profile: flags.string({ description: 'configure name' })
   }
 
   async run() {
@@ -18,7 +19,7 @@ export default class GetId extends Command {
       throw new Error(`flags.token should not be empty`)
     }
 
-    const config = await Config.get(this.config.configDir)
+    const config = await Config.load(this.config.configDir, flags.profile)
     const region: string = config.Auth.region
     const userPoolId: string = config.Auth.userPoolId
 

@@ -1,19 +1,5 @@
 import { Command, flags } from '@oclif/command'
-import * as fs from 'fs-extra'
-import * as path from 'path'
-import * as mkdirp from 'mkdirp'
-
-const initialConfig = {
-  "Auth": {
-    "region": "",
-    "userPoolId": "",
-    "userPoolWebClientId": "",
-    "authenticationFlowType": ""
-  },
-  "CognitoIdentity": {
-    "IdentityPoolId": ""
-  }
-}
+import Config from '../config'
 
 
 // https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/API_InitiateAuth.html
@@ -36,36 +22,33 @@ export default class Configure extends Command {
     client: flags.string({ char: 'c', description: 'userpool client id' }),
     federatedIdentity: flags.string({ char: 'f', description: 'federated identity id' }),
     authenticationFlowType: flags.string({ char: 'a', description: 'authentication flow type' }),
+    profile: flags.string({ description: 'configure name' })
   }
 
   async run() {
     const { args, flags } = this.parse(Configure)
 
-    mkdirp.sync(this.config.configDir);
-    const configPath = path.join(this.config.configDir, 'config.json')
-
-    let userConfig
-    if (fs.existsSync(configPath)) {
-      userConfig = await fs.readJSON(configPath)
-    } else {
-      userConfig = initialConfig
+    const config = await Config.load(this.config.configDir, flags.profile)
+    if (config === undefined) {
+      throw Error("Cannnot read user configuration")
     }
 
-    if (flags.region) { userConfig.Auth.region = flags.region }
-    if (flags.userpool) { userConfig.Auth.userPoolId = flags.userpool }
-    if (flags.client) { userConfig.Auth.userPoolWebClientId = flags.client }
+    if (flags.region) { config.Auth.region = flags.region }
+    if (flags.userpool) { config.Auth.userPoolId = flags.userpool }
+    if (flags.client) { config.Auth.userPoolWebClientId = flags.client }
     if (flags.authenticationFlowType) {
       if (AuthFlows.includes(flags.authenticationFlowType)) {
-        userConfig.Auth.authenticationFlowType = flags.authenticationFlowType
+        config.Auth.authenticationFlowType = flags.authenticationFlowType
       } else {
         this.log(`Error: authenticationFlowType should be one of ${AuthFlows}`)
         return
       }
     }
-    if (flags.federatedIdentity) { userConfig.CognitoIdentity.IdentityPoolId = flags.federatedIdentity }
+    if (flags.federatedIdentity) { config.CognitoIdentity.IdentityPoolId = flags.federatedIdentity }
 
-    this.log(`config: ${JSON.stringify(userConfig)}`)
+    this.log(`config: ${JSON.stringify(config)}`)
 
-    fs.writeFile(configPath, JSON.stringify(userConfig, null, 2))
+    await Config.save(config, this.config.configDir, flags.profile)
+
   }
 }

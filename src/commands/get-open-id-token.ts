@@ -10,6 +10,7 @@ export default class GetOpenIdToken extends Command {
     help: flags.help({ char: 'h' }),
     id: flags.string({ char: 'i', description: 'This known Cognito ID is returned by GetId.' }),
     token: flags.string({ char: 't', description: 'token' }),
+    profile: flags.string({ description: 'configure name' })
   }
 
   async run() {
@@ -18,7 +19,7 @@ export default class GetOpenIdToken extends Command {
       throw new Error(`token and id should not be empty`)
     }
 
-    const config = await Config.get(this.config.configDir)
+    const config = await Config.load(this.config.configDir, flags.profile)
     const region: string = config.Auth.region
     const userPoolId: string = config.Auth.userPoolId
 

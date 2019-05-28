@@ -17,7 +17,10 @@ const initialConfig = {
         "refreshToken": "",
         "accessToken": "",
         "identityId": "",
-        "openIdToken": ""
+        "openIdToken": "",
+        "accessKeyId": "",
+        "secretKey": "",
+        "sessionToken": ""
     }
 }
 

@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`cognito-userpool-cli configure`](#cognito-userpool-cli-configure)
 * [`cognito-userpool-cli forgot-password`](#cognito-userpool-cli-forgot-password)
+* [`cognito-userpool-cli get-credentials-for-identity [FILE]`](#cognito-userpool-cli-get-credentials-for-identity-file)
 * [`cognito-userpool-cli get-id`](#cognito-userpool-cli-get-id)
 * [`cognito-userpool-cli get-open-id-token`](#cognito-userpool-cli-get-open-id-token)
 * [`cognito-userpool-cli help [COMMAND]`](#cognito-userpool-cli-help-command)
@@ -70,6 +71,22 @@ OPTIONS
 ```
 
 _See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.8/src/commands/forgot-password.ts)_
+
+## `cognito-userpool-cli get-credentials-for-identity [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ cognito-userpool-cli get-credentials-for-identity [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/get-credentials-for-identity.ts](https://github.com/hiroga-cc/cognito-userpool-cli/blob/v0.1.8/src/commands/get-credentials-for-identity.ts)_
 
 ## `cognito-userpool-cli get-id`
 

@@ -19,7 +19,7 @@ $ npm install -g @hiroga/cognito-cli
 $ cognito-cli COMMAND
 running command...
 $ cognito-cli (-v|--version|version)
-@hiroga/cognito-cli/0.2.3 darwin-x64 node-v10.5.0
+@hiroga/cognito-cli/0.2.5 darwin-x64 node-v10.5.0
 $ cognito-cli --help [COMMAND]
 USAGE
   $ cognito-cli COMMAND
@@ -54,7 +54,7 @@ OPTIONS
   --profile=profile                                    configure name
 ```
 
-_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.3/src/commands/configure.ts)_
+_See code: [src/commands/configure.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.5/src/commands/configure.ts)_
 
 ## `cognito-cli forgot-password`
 
@@ -71,7 +71,7 @@ OPTIONS
   --profile=profile        configure name
 ```
 
-_See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.3/src/commands/forgot-password.ts)_
+_See code: [src/commands/forgot-password.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.5/src/commands/forgot-password.ts)_
 
 ## `cognito-cli get-credentials-for-identity`
 
@@ -88,7 +88,7 @@ OPTIONS
   --profile=profile  configure name
 ```
 
-_See code: [src/commands/get-credentials-for-identity.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.3/src/commands/get-credentials-for-identity.ts)_
+_See code: [src/commands/get-credentials-for-identity.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.5/src/commands/get-credentials-for-identity.ts)_
 
 ## `cognito-cli get-id`
 
@@ -104,7 +104,7 @@ OPTIONS
   --profile=profile  configure name
 ```
 
-_See code: [src/commands/get-id.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.3/src/commands/get-id.ts)_
+_See code: [src/commands/get-id.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.5/src/commands/get-id.ts)_
 
 ## `cognito-cli get-open-id-token`
 
@@ -121,7 +121,7 @@ OPTIONS
   --profile=profile  configure name
 ```
 
-_See code: [src/commands/get-open-id-token.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.3/src/commands/get-open-id-token.ts)_
+_See code: [src/commands/get-open-id-token.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.5/src/commands/get-open-id-token.ts)_
 
 ## `cognito-cli help [COMMAND]`
 
@@ -156,5 +156,5 @@ OPTIONS
   --profile=profile              configure name
 ```
 
-_See code: [src/commands/signin.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.3/src/commands/signin.ts)_
+_See code: [src/commands/signin.ts](https://github.com/hiroga-cc/cognito-cli/blob/v0.2.5/src/commands/signin.ts)_
 <!-- commandsstop -->

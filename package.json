@@ -1,12 +1,12 @@
 {
-  "name": "@hiroga/cognito-userpool-cli",
+  "name": "@hiroga/cognito-cli",
   "description": "cli tool for Cognito UserPool (ex. signin, forgotPasswordSubmit, etc...)",
   "version": "0.1.9",
   "author": "Hiroaki Ogasawara @hiroga-cc",
   "bin": {
-    "cognito-userpool-cli": "./bin/run"
+    "cognito-cli": "./bin/run"
   },
-  "bugs": "https://github.com/hiroga-cc/cognito-userpool-cli/issues",
+  "bugs": "https://github.com/hiroga-cc/cognito-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.5.13",
     "@oclif/config": "^1.13.0",
@@ -46,7 +46,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/hiroga-cc/cognito-userpool-cli",
+  "homepage": "https://github.com/hiroga-cc/cognito-cli",
   "keywords": [
     "oclif"
   ],
@@ -54,12 +54,12 @@
   "main": "lib/index.js",
   "oclif": {
     "commands": "./lib/commands",
-    "bin": "cognito-userpool-cli",
+    "bin": "cognito-cli",
     "plugins": [
       "@oclif/plugin-help"
     ]
   },
-  "repository": "hiroga-cc/cognito-userpool-cli",
+  "repository": "hiroga-cc/cognito-cli",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "tslint -p test -t stylish",

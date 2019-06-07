@@ -28,7 +28,7 @@ export default class Config {
     static getPath(dir: string, profile?: string) {
         mkdirp.sync(dir);
         const configFile = profile ? `config.${profile}.json` : 'config.json'
-        return path.join(dir, configFile) // ~/.config/@hiroga/cognito-userpool-cli/config.*.json
+        return path.join(dir, configFile) // ~/.config/@hiroga/cognito-cli/config.*.json
     }
 
     static async load(dir: string, profile?: string) {

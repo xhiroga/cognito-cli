@@ -8,34 +8,34 @@
   },
   "bugs": "https://github.com/hiroga-cc/cognito-cli/issues",
   "dependencies": {
-    "@oclif/command": "^1.5.13",
-    "@oclif/config": "^1.13.0",
-    "@oclif/plugin-help": "^2.1.6",
+    "@oclif/command": "^1.5.18",
+    "@oclif/config": "^1.13.2",
+    "@oclif/plugin-help": "^2.2.0",
     "@types/fs-extra": "^5.1.0",
-    "@types/graphql": "^14.2.0",
+    "@types/graphql": "^14.2.3",
     "@types/mkdirp": "^0.5.2",
-    "@types/node-fetch": "^2.3.3",
-    "aws-amplify": "^1.1.10",
-    "aws-sdk": "^2.456.0",
+    "@types/node-fetch": "^2.5.0",
+    "aws-amplify": "^1.1.32",
+    "aws-sdk": "^2.501.0",
     "fs-extra": "^7.0.1",
     "mkdirp": "^0.5.1",
-    "node-fetch": "^2.5.0",
-    "tslib": "^1.9.3"
+    "node-fetch": "^2.6.0",
+    "tslib": "^1.10.0"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1.22.0",
     "@oclif/test": "^1.2.4",
     "@oclif/tslint": "^3.1.1",
     "@types/chai": "^4.1.7",
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^10.14.6",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^10.14.13",
     "chai": "^4.2.0",
     "globby": "^8.0.2",
     "mocha": "^5.2.0",
     "nyc": "^13.3.0",
-    "ts-node": "^8.1.0",
-    "tslint": "^5.16.0",
-    "typescript": "^3.4.5"
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
   },
   "engines": {
     "node": ">=8.0.0"
